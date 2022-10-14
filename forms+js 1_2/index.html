@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms+js 1_2</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <form>
+        <label for="birthYear">Enter your date of birth</label>
+        <input type="date" id="birthYear" placeholder="Birth Year" min="1920" max="2022"><br>
+        <input type="submit" id="submit" value="Submit" onclick="defineAge()">
+        <p>Your age in years today, <span id="dateToday"></span>: <span id="yourAge"></span></p>
+    </form>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
